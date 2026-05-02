@@ -1,0 +1,18 @@
+{
+  "slug": "kof-maximum-impact-regulation-a-plus",
+  "title": "KOF Maximum Impact Regulation \"A\" PLUS",
+  "original_url": "https://game.snk-corp.co.jp/official/kof-mi-ra-plus/",
+  "original_host": "game.snk-corp.co.jp",
+  "original_scope": "/official/kof-mi-ra-plus/",
+  "capture_mode": "live",
+  "primary_snapshot": null,
+  "primary_snapshot_url": null,
+  "live_fetched_at": "2026-05-02T22:37:39.669373Z",
+  "complementary_snapshots": [],
+  "missing_assets": [
+    "falcoon/index.html (404 on origin)"
+  ],
+  "captured_at": "2026-05-02T22:37:39.672049Z",
+  "tool": "wget",
+  "notes": "Captured live from origin. 50 files recovered via Step 5c BFS sweep (rollover hover images and JS-string asset refs). 202 video SWFs were sub-loaders calling loadMovie(\"img/pv_video_*.swf\") — all real videos fetched per Step 5d (decompiled with ffdec). Ruffle vendored at system/ruffle/ for offline Flash playback. Per-character video FLVs transcoded to MP4 in _assets/video/ (205 files, ~457 MB) for repo-browseable archival. Adobe AC_RunActiveContent.js fetched into Scripts/ from origin root."
+}

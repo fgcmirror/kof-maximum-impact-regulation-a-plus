@@ -1,0 +1,197 @@
+/*----------------フォーム設定----------------*/
+
+form {
+	margin: 0px;
+}
+
+/*----------------リンク基本設定----------------*/
+
+A:link {color:#FF6600; text-decoration:none}
+A:visited {color:#FF6600; text-decoration:none}
+A:hover {color:#FF6600; text-decoration:underline}
+A:active {text-decoration:none}
+
+A.navi:link {color:#FF6600; text-decoration:none}
+A.navi:visited {color:#FF6600; text-decoration:none}
+A.navi:hover {color:#FF6600; text-decoration:underline}
+A.navi:active {text-decoration:none}
+
+A.comment:link {color:#FFFF00; text-decoration:none}
+A.comment:visited {color:#FFFF00; text-decoration:none}
+A.comment:hover {color:#FFFF00; text-decoration:underline}
+A.comment:active {text-decoration:none}
+
+/*----------------イメージセンター揃え----------------*/
+img.header{
+        vertical-align:middle;
+        }
+
+/*----------------テキスト基本設定----------------*/
+
+.sText {
+	font-size: 10px;
+	line-height: 120%;
+	}
+	
+.mText {
+	font-size: 12px;
+	line-height: 130%;
+	}
+	
+.lText {
+	font-size: 14px;
+	line-height: 140%;
+	}
+	
+.llText {
+	font-size: 17px;
+	line-height: 140%;
+	}
+
+
+/*-----ファルコンルームナビ-----*/
+div.fal-navi {
+	font-size:12px;
+	margin:5px;
+}
+
+/*-----ファルコンルーム　コメント-----*/
+div.fal-comment-text {
+	font-size: 12px;
+	line-height: 130%;
+	color:#FFFFFF;
+	margin:7px;
+}
+
+
+/*-----秘蔵ギャラリー　ローカルナビ-----*/
+div.gallery-lnavi {
+	width:910px;
+	margin:4px auto;
+	font-size: 12px;
+}
+
+
+/*-----オリジナルサイドストーリー　インデックスページ-----*/
+div.story-indextext p {
+	margin:0;
+	padding:0;
+	margin-bottom:1em;
+	font-size: 12px;
+	line-height: 130%;
+}
+/*-----オリジナルサイドストーリー　ポップアップのテキスト-----*/
+div.story-text {
+	width:480px;
+	/*height:660px;*/
+	margin:15px 10px;
+
+}
+div.story-text p {
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	margin-bottom:1em;
+	font-size: 12px;
+	line-height: 130%;
+}
+
+/*-----オリジナルサイドストーリー　背景画像-----*/
+body#story01 {
+	background:#000000 url(story/01/img/bg_story01.jpg) 0 0 no-repeat fixed;
+}
+
+body#story02 {
+	background:#000000 url(story/02/img/bg_story02.jpg) 0 0 no-repeat fixed;
+}
+body#story03 {
+	background:#000000 url(story/03/img/bg_story03.jpg) 0 0 no-repeat fixed;
+}
+body#story04 {
+	background:#000000 url(story/04/img/bg_story04.jpg) 0 0 no-repeat fixed;
+}
+body#story05 {
+	background:#000000 url(story/05/img/bg_story05.jpg) 0 0 no-repeat fixed;
+}
+body#story06 {
+	background:#000000 url(story/06/img/bg_story06.jpg) 0 0 no-repeat fixed;
+}
+
+
+
+
+
+
+
+/*-----戦闘員控え室　ナビ-----*/
+div.hikae-navi {
+	padding:3px;
+	font-size: 12px;
+	line-height: 130%;
+}
+
+/*-----戦闘員控え室　吹き出しのテキスト-----*/
+div.hikae-fukidashi {
+	color:#FFFFFF;
+	padding:10px;
+	font-size:12px;
+	line-height:130%;
+}
+
+div.hikae-fukidashi strong {
+	color:#FFFF00;
+	font-weight:bold;
+}
+
+
+
+	
+/*---Falcoo roomナビ-----*/
+.navi-text {
+	font-size: 12px;
+	line-height: 130%;
+	margin:5px 0px 17px 0px;
+	}
+/*---コメントテキスト-----*/
+.comment-text {
+	font-size: 12px;
+	line-height: 130%;
+	color:#FFFFFF;
+	margin:7px;
+	}
+/*---システムナビテキスト-----*/
+.system-navi {
+	font-size: 12px;
+	line-height: 130%;
+	color:#FFFFFF;
+	margin:3px 0px 3px 15px;
+	}
+/*---ムービーナビテキスト-----*/
+.movie-navi {
+	font-size: 12px;
+	line-height: 130%;
+	color:#000000;
+	margin:0px 0px 0px 6px;
+	}
+/*---赤テキスト-----*/
+.t-red-s {
+	font-size: 10px;
+	line-height: 130%;
+	color:#FF0000;
+	}
+.t-red-m {
+	font-size: 12px;
+	line-height: 130%;
+	color:#FF0000;
+	}
+.t-red-ll {
+	font-size: 17px;
+	line-height: 140%;
+	color:#FF0000;
+	}
+/*---白テキスト-----*/
+.t-white-s {
+	font-size: 10px;
+	line-height: 130%;
+	color:#FFFFFF;
+	}
