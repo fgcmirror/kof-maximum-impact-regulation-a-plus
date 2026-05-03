@@ -25,35 +25,35 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
 }
 
-/*----------�w�b�_�[�摜----------*/
+/*----------ヘッダー画像----------*/
 
 function RundamImg()
 {
 	picture_num=12;
 	rnd = Math.ceil(Math.random() * picture_num);
-	document.write('<img src="/official/kof-mi-ra-plus/common/hed' + rnd + '.jpg" alt="KOF�}�L�V�}���C���p�N�g���M�����[�V����A ���݃T�C�g" width="902" height="86" border="0" usemap="#Map">');
-	document.write('<map name="Map"><area shape="rect" coords="1,1,496,84" href="index.html"></map>');
+	document.write('<img src="/common/hed' + rnd + '.jpg" alt="KOFマキシマムインパクトレギュレーションA 特設サイト" width="902" height="86" border="0" usemap="#Map">');
+	document.write('<map name="Map"><area shape="rect" coords="1,1,496,84" href="/index.html"></map>');
 	
 }
 
-/*�M�������[�@�|�b�v�A�b�v�@�g��摜*/
+/*ギャラリー　ポップアップ　拡大画像*/
 function gallery1(winname)
 {
-newWindow =window.open("/official/kof-mi-ra-plus/gallery/"+winname,"winGallery","toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=950,height=650");
+newWindow =window.open("/gallery/"+winname,"winGallery","toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=950,height=650");
 newWindow.focus();
 }
 
-/*�M�������[�@�|�b�v�A�b�v2�@other color*/
+/*ギャラリー　ポップアップ2　other color*/
 function gallery2(winname)
 {
-newWindow =window.open("/official/kof-mi-ra-plus/gallery/design/pop/"+winname,"winGallery2","toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=880,height=650");
+newWindow =window.open("/gallery/design/pop/"+winname,"winGallery2","toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=880,height=650");
 newWindow.focus();
 }
 
-/*�T�C�h�X�g�[���[�@�|�b�v�A�b�v*/
+/*サイドストーリー　ポップアップ*/
 function story(winname)
 {
-newWindow =window.open("/official/kof-mi-ra-plus/story/"+winname,"winStory","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=677,height=700");
+newWindow =window.open("/story/"+winname,"winStory","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=677,height=700");
 newWindow.focus();
 }
 
